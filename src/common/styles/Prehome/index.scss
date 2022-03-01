@@ -1,0 +1,59 @@
+.prehome__container {
+  width: 100%;
+  background: #141414;
+  height: 100vh;
+
+  &__header {
+    padding: 0 60px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: inset 0px 68px 36px -46px rgba(0, 0, 0, 0.829);
+    -moz-box-shadow: inset 0px 68px 36px -46px rgba(0, 0, 0, 0.856);
+    box-shadow: inset 0px 68px 36px -46px rgb(0, 0, 0);
+  }
+  &__users__container {
+    height: calc(100vh - 80px) !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__text {
+      font-family: Netflix Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 64px;
+      color: #ffffff;
+      margin-bottom: 30px;
+    }
+
+    &__button {
+      width: 308px;
+      height: 53px;
+      border: 1px solid #808080;
+      background-color: transparent;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-family: Netflix Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      color: #808080;
+      margin-top: 110px;
+
+      &:hover {
+        color: #fff;
+        border: 1px solid #fff;
+        cursor: pointer;
+      }
+    }
+  }
+  &__users__selection__container {
+    display: flex;
+    gap: 50px;
+  }
+}
